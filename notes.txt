@@ -1,0 +1,26 @@
+Buatlah model baru bernama Teacher dengan field sebagai berikut. Lakukan migrasi.
+first_name : string
+last_name : string
+
+Buat migrasi untuk menambahkan field ‘email : string’ pada tabel Teachers, jangan lupa untuk modifikasi model dan melakukan migrasi.
+
+Buat seeder untuk tabel Teachers, masukkan data-data berikut lalu lakukan seed
+
+first_name, last_name, email
+Bambang, Suprapto, bambangsuprapto@sekolah.id
+Rukmana, Fatmawati, rukmanafatmawati@sekolah.id
+Butet, Naiborhu, butetnaiborhu@sekolah.id
+Yulius, Prawiranegara, yuliusprawiranegara@sekolah.id
+
+Buat model baru dengan nama Subject dengan field berikut. Lakukan migrasi.
+subject_name : string
+
+Buat seeder untuk tabel Subjects, masukkan data-data berikut lalu lakukan seed.
+
+subject_name
+Kimia
+Ekonomi
+
+Buatlah aplikasi Express dengan routing seperti di bawah. Pisahkan masing-masing routing pada file berbeda. Jangan lupa memanggil file route dengan app.use
+Pada teachers.js
+GET /teachers (menampilkan semua data teacher) 
